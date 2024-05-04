@@ -6,7 +6,7 @@ Conteúdo do curso de Java do SENAI Araçatuba, curso com duração de 80 horas!
 
 ## Documentação de alguns projetos usando Fluxogramas
 
-[Par ou Impar](https://lucid.app/lucidchart/invitations/accept/inv_59c842ff-71f0-41ce-b498-064d7b253d1c)
+[Par ou Impar](https://lucid.app/lucidchart/invitations/accept/inv_a27e7e79-e6a0-4a04-bd17-1b9849592a7c)
 
 [PopulaçãoCidade](https://lucid.app/lucidchart/e5527a7b-bdde-4318-be5b-eba0427ed355/edit?viewport_loc=-1361%2C-144%2C4979%2C2361%2C0_0&invitationId=inv_59c842ff-71f0-41ce-b498-064d7b253d1c)
 
