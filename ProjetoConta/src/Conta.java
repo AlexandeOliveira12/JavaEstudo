@@ -1,22 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Conta {
-  private String numeroCont;
+  private String numeroConta;
   private Cliente titular;
-  private Dependente[] dependente;
+  private List<Dependente> dependentes = new ArrayList<>();
 
-  public Dependente[] getDependente() {
-    return dependente;
+  public List<Dependente> getDependente() {
+    return dependentes; // Retorna a lista de dependentes
   }
 
-  public void setDependente(Dependente[] dependente) {
-    this.dependente = dependente;
+  public void setDependente(Dependente dependente) {
+    this.dependentes.add(dependente);
   }
 
-  public String getNumeroCont() {
-    return numeroCont;
+  public String getNumeroConta() {
+    return numeroConta;
   }
 
-  public void setNumeroCont(String numeroCont) {
-    this.numeroCont = numeroCont;
+  public void setNumeroConta(String numeroConta) {
+    this.numeroConta = numeroConta;
   }
 
   public Cliente getTitular() {
@@ -25,5 +28,19 @@ public class Conta {
 
   public void setTitular(Cliente titular) {
     this.titular = titular;
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("Conta: " + numeroConta + "\n");
+    sb.append("Titular: " + titular.getNome() + "\n");
+    sb.append("Dependentes:\n");
+
+    for (Dependente dependente : dependentes) {
+      sb.append("- " + dependente.getNome() + "\n");
+    }
+
+    return sb.toString();
   }
 }

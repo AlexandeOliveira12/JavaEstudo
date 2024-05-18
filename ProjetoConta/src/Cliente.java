@@ -1,20 +1,20 @@
 public class Cliente {
-  private int Codigo;
-  private String Nome;
+  private int codigo;
+  private String nome;
 
   public int getCodigo() {
-    return Codigo;
+    return codigo;
   }
 
-  public void setCodigo(int Codigo) {
-    this.Codigo = Codigo;
+  public void setCodigo(int codigo) {
+    this.codigo = codigo;
   }
 
   public String getNome() {
-    return Nome;
+    return nome;
   }
 
-  public void setNome(String Nome) {
-    this.Nome = Nome;
+  public void setNome(String nome) {
+    this.nome = nome;
   }
 }
